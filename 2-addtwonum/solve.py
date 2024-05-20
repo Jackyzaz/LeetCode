@@ -65,108 +65,37 @@ class Linklist:
 
 
 class Solution:
-    # def addTwoNumbers(self, l1:ListNode, l2:ListNode) -> ListNode:
-    #     dummyHead = ListNode(0)
-    #     print("🐍 File: 2addtwonum/solve.py | Line: 70 | addTwoNumbers ~ dummyHead",dummyHead.val)
-    #     print("🐍 File: 2addtwonum/solve.py | Line: 70 | addTwoNumbers ~ dummyHead",dummyHead.next)
-    #     tail = dummyHead
-    #     print("🐍 File: 2addtwonum/solve.py | Line: 73 | addTwoNumbers ~ tail",tail.val)
-    #     print("🐍 File: 2addtwonum/solve.py | Line: 73 | addTwoNumbers ~ tail",tail.next)
-    #     carry = 0
-    #     i = 0
-
-    #     while l1 is not None or l2 is not None or carry != 0:
-    #         print()
-    #         digit1 = l1.val if l1 is not None else 0
-    #         print("🐍 File: 2addtwonum/solve.py | Line: 79 | addTwoNumbers ~ digit1",digit1)
-    #         digit2 = l2.val if l2 is not None else 0
-    #         print("🐍 File: 2addtwonum/solve.py | Line: 81 | addTwoNumbers ~ digit2",digit2)
-
-    #         sum = digit1 + digit2 + carry
-    #         digit = sum % 10
-    #         carry = sum // 10
-
-    #         newNode = ListNode(digit)
-    #         print('//// Round ',i)
-    #         # print("🐍 File: 2addtwonum/solve.py | Line: 88 | addTwoNumbers ~ newNode",newNode.val)
-    #         # print("🐍 File: 2addtwonum/solve.py | Line: 88 | addTwoNumbers ~ newNode",newNode.next)
-            
-    #         # print("🐍 File: 2addtwonum/solve.py | Line: 92 | addTwoNumbers ~ tail.next",tail.next)
-    #         print("💛 File: 2addtwonum/solve.py | Line: 70 | addTwoNumbers ~ dummyHead",dummyHead.next)
-    #         print()
-    #         tail.next = newNode
-    #         print("💛 File: 2addtwonum/solve.py | Line: 70 | addTwoNumbers ~ dummyHead",dummyHead.next)
-    #         print("🔴 File: 2addtwonum/solve.py | Line: 70 | addTwoNumbers ~ dummyHead",dummyHead.next.val)
-    #         # print("🐍 File: 2addtwonum/solve.py | Line: 92 | addTwoNumbers ~ tail.next",tail.next)
-    #         # print("🐍 File: 2addtwonum/solve.py | Line: 92 | addTwoNumbers ~ tail.next",tail.next.val)
-    #         # print("🐍 File: 2addtwonum/solve.py | Line: 92 | addTwoNumbers ~ tail.next",tail.next.next)
-            
-    #         # print("🐍 File: 2addtwonum/solve.py | Line: 94 | addTwoNumbers ~ tail",tail.val)
-    #         # print("🐍 File: 2addtwonum/solve.py | Line: 94 | addTwoNumbers ~ tail",tail.next.val)
-    #         tail = tail.next
-    #         # print("🐍 File: 2addtwonum/solve.py | Line: 94 | addTwoNumbers ~ tail",tail.val)
-    #         # print("🐍 File: 2addtwonum/solve.py | Line: 94 | addTwoNumbers ~ tail",tail.next)
-    #         print('////')
-
-    #         i+=1
-
-    #         l1 = l1.next if l1 is not None else None
-    #         l2 = l2.next if l2 is not None else None
-
-    #     result = dummyHead.next
-    #     print("🏁 File: 2addtwonum/solve.py | Line: 114 | addTwoNumbers ~ result",result.val)
-    #     dummyHead.next = None
-    #     return result
-
-    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+    def addTwoNumbers(self, l1:ListNode, l2:ListNode) -> ListNode:
         dummyHead = ListNode(0)
         tail = dummyHead
-        print("🐍 File: 2addtwonum/solve.py | Line: 124 | addTwoNumbers ~ tail",tail.next)
-        tail.next = ListNode(1)
-        print("🐍 File: 2addtwonum/solve.py | Line: 126 | addTwoNumbers ~ tail.next",tail.next)
-        i = 1
+        carry = 0
+        i = 0
 
-        # while l1 is not None or l2 is not None :
-        #     newNode = ListNode(i)
+        while l1 is not None or l2 is not None or carry != 0:
+            digit1 = l1.val if l1 is not None else 0
+            digit2 = l2.val if l2 is not None else 0
 
-        #     print("🐍 File: 2addtwonum/solve.py | Line: 123 | addTwoNumbers ~ dummyHead",dummyHead.next)
-        #     print('/////////')
-        #     tail.next = newNode
-        #     print("🐍 File: 2addtwonum/solve.py | Line: 123 | addTwoNumbers ~ dummyHead",dummyHead.next.val)
-        #     tail = tail.next
+            sum = digit1 + digit2 + carry
+            digit = sum % 10
+            carry = sum // 10
 
-        #     l1 = l1.next if l1 is not None else None
-        #     l2 = l2.next if l2 is not None else None
-        #     i+=1
+            newNode = ListNode(digit)
+            tail.next = newNode
+            tail = tail.next
+
+            i+=1
+
+            l1 = l1.next if l1 is not None else None
+            l2 = l2.next if l2 is not None else None
 
         result = dummyHead.next
+        print("🏁 File: 2addtwonum/solve.py | Line: 114 | addTwoNumbers ~ result",result.val)
         dummyHead.next = None
         return result
 
-a = Linklist()
-# a.display()
-# a.append(2)
-# a.display()
-# a.append(3)
-# a.display()
-
-# a.append(3)
-# a.append(4)
-
-# node1 = ListNode(2)
-# print(node1.val)
-
-# node1.next = ListNode(4)
-# print(node1.next.val)
-
-# node1.next.next = ListNode(3)
-# print(node1.next.next.val)
 node1 = ListNode(2)
-print(node1.val)
 node1.append(4)
-print(node1.next.val)
 node1.append(3)
-print(node1.next.next.val)
 
 node2 = ListNode(5)
 node2.append(6)
