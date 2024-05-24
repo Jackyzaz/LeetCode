@@ -15,5 +15,5 @@ def twoSum(nums: List[int], target: int) -> List[int]:
         print(i,numMap)
 
 
-result = twoSum(nums=[2,7,11,15],target=9)
+result = twoSum(nums=[2,1,11,7],target=9)
 print(result)
