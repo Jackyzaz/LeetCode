@@ -1,6 +1,7 @@
 from typing import List
 
 class Solution:
+    #from solution
     def findLengthOfLCIS(self, nums):
         ans = anchor = 0
         for i in range(len(nums)):
