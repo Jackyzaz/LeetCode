@@ -5,7 +5,6 @@ class Solution:
         
         for i in range(len(nums)):
             ans+=pow(-1,i)*int(nums[i])
-            print(i,pow(-1,i)*int(nums[i]), ans)
 
         return ans
 
