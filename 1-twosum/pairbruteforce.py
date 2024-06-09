@@ -1,6 +1,3 @@
-# Search Way 
-# Runtime 3257 ms
-
 from typing import List
 
 def twoSum(nums: List[int], target: int) -> List[int]:
