@@ -5,12 +5,12 @@ For this repo, I will try to upload a new question/solution every day and write 
 
 <br>
 
-## Full Solution available
+## Full Solution available (1)
 ### [1. Two Sum Solution](https://github.com/Jackyzaz/LeetCode/tree/main/1-twosum)
 
 <br>
 
-## Comming soon
+## Comming soon (17)
 #### [2. Add Two Numbers](https://github.com/Jackyzaz/LeetCode/tree/main/2-addtwonum)
 #### [3. Longest Substring Without Repeating Characters](https://github.com/Jackyzaz/LeetCode/tree/main/3-Longest%20SubString)
 #### [4. Median of Two Sorted Arrays](https://github.com/Jackyzaz/LeetCode/tree/main/4-Median%20of%20Two%20Sorted%20Array)
