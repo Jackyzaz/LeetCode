@@ -1,7 +1,7 @@
 # LeetCode
 My LeetCode Solution in thai ver. Would be happy if someone come and discuss together.
 
-For this repo, I will try to upload a new question/solution every day and write full solution every week.
+For this repo, I will try to upload a new question/solution every day and write a full solution every week.
 
 <br>
 
