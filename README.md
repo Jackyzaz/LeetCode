@@ -10,7 +10,7 @@ For this repo, I will try to upload a new question/solution every day and write 
 
 <br>
 
-## Comming soon (17)
+## Comming soon (18)
 #### [2. Add Two Numbers](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/2-addtwonum)
 #### [3. Longest Substring Without Repeating Characters](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/3-Longest%20SubString)
 #### [4. Median of Two Sorted Arrays](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/4-Median%20of%20Two%20Sorted%20Array)
