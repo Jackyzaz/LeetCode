@@ -19,6 +19,7 @@ For this repo, I will try to upload a new question/solution every day and write 
 #### [7. Reverse Integer](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/7-Reverse%20Integer)
 #### [8. String to Integer (atoi)](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/8-String%20to%20integer%20atoi)
 #### [9. Palindrome Number](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/9-Palindrome%20number)
+#### [13. Roman to Integer](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/13-Roman%20to%20Integer)
 #### [674. Longest Continuous Increasing Subsequence](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/674-Longest%20Cotinouse%20Increasing%20Subsequence)
 #### [945. Minimum Increment to Make Array Unique](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/945-Minimum%20Increment%20to%20Make%20Array%20Unique)
 #### [1051. Height Checker](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/1051-Height%20Checker)
