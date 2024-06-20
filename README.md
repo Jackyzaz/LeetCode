@@ -10,7 +10,7 @@ For this repo, I will try to upload a new question/solution every day and write 
 
 <br>
 
-## Comming soon (20)
+## Comming soon (21)
 #### [2. Add Two Nubers](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/2-addtwonum)
 #### [3. Longest Substring Without Repeating Characters](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/3-Longest%20SubString)
 #### [4. Median of Two Sorted Arrays](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/4-Median%20of%20Two%20Sorted%20Array)
@@ -20,6 +20,7 @@ For this repo, I will try to upload a new question/solution every day and write 
 #### [8. String to Integer (atoi)](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/8-String%20to%20integer%20atoi)
 #### [9. Palindrome Number](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/9-Palindrome%20number)
 #### [13. Roman to Integer](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/13-Roman%20to%20Integer)
+#### [14. Longest Common Prefix](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/14-Longest%20Common%20Prefix)
 #### [674. Longest Continuous Increasing Subsequence](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/674-Longest%20Cotinouse%20Increasing%20Subsequence)
 #### [945. Minimum Increment to Make Array Unique](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/945-Minimum%20Increment%20to%20Make%20Array%20Unique)
 #### [1051. Height Checker](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/1051-Height%20Checker)
