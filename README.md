@@ -1,7 +1,10 @@
 # LeetCode
+
 My LeetCode Solution in thai ver. Would be happy if someone come and discuss together.
 
 For this repo, I will try to upload a new question/solution every day and write a full solution every week.
+
+#### Checkout my leet : https://leetcode.com/u/Jackyzaz/
 
 <br>
 
@@ -10,7 +13,7 @@ For this repo, I will try to upload a new question/solution every day and write 
 
 <br>
 
-## Comming soon (23)
+## Comming soon (24)
 #### [2. Add Two Nubers](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/2-addtwonum)
 #### [3. Longest Substring Without Repeating Characters](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/3-Longest%20SubString)
 #### [4. Median of Two Sorted Arrays](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/4-Median%20of%20Two%20Sorted%20Array)
@@ -22,6 +25,7 @@ For this repo, I will try to upload a new question/solution every day and write 
 #### [13. Roman to Integer](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/13-Roman%20to%20Integer)
 #### [14. Longest Common Prefix](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/14-Longest%20Common%20Prefix)
 #### [20. Valid Parentheses](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/20-Valid%20Parentheses)
+#### [26. Remove Duplicates from Sorted Array](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/26-Remove%20Duplicates%20from%20Sorted%20Array)
 #### [27. Remove Element](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/27-Remove%20Element)
 #### [674. Longest Continuous Increasing Subsequence](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/674-Longest%20Cotinouse%20Increasing%20Subsequence)
 #### [945. Minimum Increment to Make Array Unique](https://github.com/Jackyzaz/LeetCode/tree/main/Solution/945-Minimum%20Increment%20to%20Make%20Array%20Unique)
